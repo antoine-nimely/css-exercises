@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+
+.uniqueLeft {
+    background-color: black;
+    color: white;
+    /* border-width: 1px; */
+    /* border-color: black; */
+}
+
+/* grouping selector is no different from a compound selector */
+/* instead of saying .uniqueLeft.sharedfeatures { rules }  */
+/* i decided to do things differently, but still arrived at the same result. */
+/* .uniqueLeft styled the left btn, while .uniqueRight styled the right btn, but .sharedFeatures styled both of them. How?*/
+/* after writing the css class for the features that the both button share, I added this other css class name to the unique class   */
+/* they each element alread had */
+
+.sharedfeatures {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, san-serif;
+}
+
+.uniqueRight {
+    background-color: yellow;
+    color: black;
+
+}
+
+
