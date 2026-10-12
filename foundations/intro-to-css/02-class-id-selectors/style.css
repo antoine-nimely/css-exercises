@@ -1,1 +1,35 @@
 /* Add CSS Styling */
+
+.hbar {
+   color: #000000 ;
+   background-color: #FA8072 ;
+   font-family: Verdana, Dejavu Sans , sans-serif ;
+
+}
+
+.even2{
+   color: #0000FF ;
+   font-size: 36px;
+   font-family: 'Times New Roman', Times, serif ;
+}
+
+#middle {
+   color: #000000 ;
+   font-size: 25px;
+   background-color: #FA8072 ;
+   font-family: Verdana, Dejavu Sans , sans-serif ; 
+
+}
+
+#even4 {
+   color: #000000 ;
+   background-color: #73fe1f ;
+   font-size: 24px;
+   font-family: 'Times New Roman', Times, serif ; 
+
+
+}
+
+
+
+
