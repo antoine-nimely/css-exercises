@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+
+/* whatever styling that you do here, do not touch the photos within the class, original. */
+
+.avatar.proportioned {
+                    height: auto;
+                    width: 300px;
+}
+
+.avatar.distorted {
+                    height: 400px;  
+                    width: 200px;
+
+}
