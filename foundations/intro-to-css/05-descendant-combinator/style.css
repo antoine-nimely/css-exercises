@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+/* In here we styling our target html elements using the Combinator selector */
+/* Whether we use the type selector or class selector method, we can achieve the same result */
+/* either of the methods below would 100% achieve the same result */
+
+/* div p {
+
+} */
+
+div .text {
+    color: red;
+    text-align: center;
+    background-color: yellow;
+
+}
