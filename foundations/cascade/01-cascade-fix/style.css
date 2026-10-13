@@ -2,22 +2,32 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Step 1 - I moved para to the top right below the body type selector 
+so that cascading protocol can interact with it first before to the rules below it which also affect its 
+own class. the logic is that 22px is bigger than 14px, so if I can change the position of its selector, 
+the exercise criteria will be met as shown on the image of the desired outcome */
+
+.para {
+  font-size: 22px;
+}
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+.small-para,
+  .child {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
+/* Step 2 - the #confirm-button selector was non-existent in the exercise challenge. I had to convert the existing 
+.confirm class selector to #confirm-button id selector because I saw that background color green was 
+available to be applied to whatever selector that is attached to. */
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,13 +39,27 @@ body {
   font-size: 20px;
 }
 
-.child {
+
+/* the class selector was not working because div.text selector was given precedence over it because it 
+had two selector (div chained to .text)against only one class selector which was .child. I remove the 
+div element that was chained to .text which was stopping css cascade from applying 14px to div content. 
+To meet the requirement of this challenge, I decided to add a parent to the .child selector 
+making it a descendent of a div element as it actually is in the html code as (div .child) and 
+it worked out to solve the exercise objective as reflected in the desired outcome jpg image.
+  */
+
+div .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+
+/* I removed the div element that was chained to .text like so: div.text  
+this was done inorder to meet the exercise objective. It has a solid basis in theory */
+
+
+.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
