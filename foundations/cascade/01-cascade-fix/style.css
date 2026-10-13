@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Step 1 - I moved para to the top right below the body type selector 
+/* Step 1 - I moved .para (class selector) to the top right below the body type selector 
 so that cascading protocol can interact with it first before to the rules below it which also affect its 
 own class. the logic is that 22px is bigger than 14px, so if I can change the position of its selector, 
 the exercise criteria will be met as shown on the image of the desired outcome */
