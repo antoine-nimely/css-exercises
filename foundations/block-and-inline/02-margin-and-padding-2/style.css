@@ -1,20 +1,79 @@
-body {
-  background: gray;
-  font-family: sans-serif;
+@media screen {
+  
 }
+body {
+  background: grey;
+  font-family: sans-serif;
+  
+}
+
+/* 
+@media (min-width: 768px) {
+  body {
+    background-color: lightgray;
+  }
+}
+
+
+*/
+
 
 .card {
-  width: 400px;
+  width: 800px;
+  height: 340px;
   background: white;
-  margin: 16px auto;
+  margin: auto;
+  
+  margin: 50px auto 15px auto;
+  padding-top: 15px;
+ 
 }
 
-.title,
-.content,
+.title {
+  background: dodgerblue;
+  font-size: 16px;
+  padding: 30px;
+  margin: 15px;
+}
+
+.content{
+  background: dodgerblue;
+  font-size: 16px;
+  padding: 30px;
+  margin: 15px;
+
+}
 .button-container {
   background: dodgerblue;
+  font-size: 16px;
+  padding: 30px;
+  margin: 15px 15px 15px 15px;
+}
+  
+
+.button-container{
+  display: block;
+  padding-left: 300px;
+  margin-bottom: 15px;
+  
+
 }
 
 button {
+  border: 2px solid black;
   background: white;
+  padding: 8px;
+  display: block;
+  align-items: center;
+  
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.smalltext {
+  /* text-align: center; */
+  padding-left: 27px;
+
 }
